@@ -1,7 +1,8 @@
 --[[
 
-UI made by soul
-Feel free to use 
+This UI Library is supported mobile players
+Code from Kavo UI Library
+UI made by Deity
 
 ]]
 
@@ -115,7 +116,7 @@ function Library:Create(TitleText)
 	Main.Name = "Main"
 	Main.Parent = UILibrary
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+	Main.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 400, 0, 228)
 
@@ -124,7 +125,7 @@ function Library:Create(TitleText)
 
 	TopBar.Name = "TopBar"
 	TopBar.Parent = Main
-	TopBar.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	TopBar.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	TopBar.Size = UDim2.new(1, 0, 0, 30)
 
 	UICorner_2.CornerRadius = UDim.new(0, 6)
@@ -133,14 +134,14 @@ function Library:Create(TitleText)
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
 	Extension.AnchorPoint = Vector2.new(0, 1)
-	Extension.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	Extension.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0, 0, 1, 0)
 	Extension.Size = UDim2.new(1, 0, 0.5, 0)
 
 	Title.Name = "Title"
 	Title.Parent = TopBar
-	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Title.BackgroundColor3 = Color3.fromRGB(2144, 238, 14)
 	Title.BackgroundTransparency = 1.000
 	Title.Size = UDim2.new(0.5, 0, 1, 0)
 	Title.Font = Enum.Font.Gotham
@@ -156,7 +157,7 @@ function Library:Create(TitleText)
 	Close.Name = "Close"
 	Close.Parent = TopBar
 	Close.AnchorPoint = Vector2.new(1, 0.5)
-	Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Close.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Close.BackgroundTransparency = 1.000
 	Close.Position = UDim2.new(1, -8, 0.5, 0)
 	Close.Size = UDim2.new(0, 14, 0, 14)
@@ -181,7 +182,7 @@ function Library:Create(TitleText)
 	Line.Name = "Line"
 	Line.Parent = TopBar
 	Line.AnchorPoint = Vector2.new(0, 1)
-	Line.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 1, 0)
 	Line.Size = UDim2.new(1, 0, 0, 1)
@@ -209,7 +210,7 @@ function Library:Create(TitleText)
 
 	Navigation.Name = "Navigation"
 	Navigation.Parent = Main
-	Navigation.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Navigation.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Navigation.BorderSizePixel = 0
 	Navigation.Position = UDim2.new(0, 0, 0, 30)
 	Navigation.Size = UDim2.new(0, 120, 1, -30)
@@ -219,21 +220,21 @@ function Library:Create(TitleText)
 
 	Hide.Name = "Hide"
 	Hide.Parent = Navigation
-	Hide.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Hide.BorderSizePixel = 0
 	Hide.Size = UDim2.new(1, 0, 0, 20)
 
 	Hide2.Name = "Hide2"
 	Hide2.Parent = Navigation
 	Hide2.AnchorPoint = Vector2.new(1, 0)
-	Hide2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide2.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Hide2.BorderSizePixel = 0
 	Hide2.Position = UDim2.new(1, 0, 0, 0)
 	Hide2.Size = UDim2.new(0, 20, 1, 0)
 
 	ButtonHolder.Name = "ButtonHolder"
 	ButtonHolder.Parent = Navigation
-	ButtonHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ButtonHolder.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	ButtonHolder.BackgroundTransparency = 1.000
 	ButtonHolder.Size = UDim2.new(1, 0, 1, 0)
 
@@ -247,7 +248,7 @@ function Library:Create(TitleText)
 
 	Line_2.Name = "Line"
 	Line_2.Parent = Navigation
-	Line_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line_2.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Line_2.BorderSizePixel = 0
 	Line_2.Position = UDim2.new(1, 0, 0, 0)
 	Line_2.Size = UDim2.new(0, 1, 1, 0)
@@ -255,14 +256,14 @@ function Library:Create(TitleText)
 	ContentContainer.Name = "ContentContainer"
 	ContentContainer.Parent = Main
 	ContentContainer.AnchorPoint = Vector2.new(1, 0)
-	ContentContainer.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+	ContentContainer.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	ContentContainer.BackgroundTransparency = 1.000
 	ContentContainer.Position = UDim2.new(1, -6, 0, 36)
 	ContentContainer.Size = UDim2.new(1, -133, 1, -42)
 
 	Fade.Name = "Fade"
 	Fade.Parent = ContentContainer
-	Fade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Fade.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 	Fade.BorderSizePixel = 0
 	Fade.Size = UDim2.new(1, 0, 0, 30)
 	Fade.Visible = false
@@ -293,7 +294,7 @@ function Library:Create(TitleText)
 
 		Active.Name = TabText.."_TabButton"
 		Active.Parent = ButtonHolder
-		Active.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Active.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 		Active.BackgroundTransparency = 1
 		Active.BorderSizePixel = 0
 		Active.Size = UDim2.new(1, 0, 0, 28)
@@ -309,7 +310,7 @@ function Library:Create(TitleText)
 		Icon.Name = "Icon"
 		Icon.Parent = Active
 		Icon.AnchorPoint = Vector2.new(0, 0.5)
-		Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Icon.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 		Icon.BackgroundTransparency = 1.000
 		Icon.Position = UDim2.new(0, -24, 0.5, 0)
 		Icon.Size = UDim2.new(0, 20, 0, 20)
@@ -317,7 +318,7 @@ function Library:Create(TitleText)
 
 		NewTab.Name = "NewTab"
 		NewTab.Parent = TabsFolder
-		NewTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		NewTab.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 		NewTab.BackgroundTransparency = 1.000
 		NewTab.BorderSizePixel = 0
 		NewTab.Selectable = false
@@ -393,14 +394,14 @@ function Library:Create(TitleText)
 
 			Section.Name = "Section"
 			Section.Parent = NewTab
-			Section.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Section.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Section.BackgroundTransparency = 1.000
 			Section.Position = UDim2.new(0, 0, 0.430411309, 0)
 			Section.Size = UDim2.new(1, 0, -0.0561393984, 32)
 
 			Title_idk.Name = "Title"
 			Title_idk.Parent = Section
-			Title_idk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_idk.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_idk.BackgroundTransparency = 1.000
 			Title_idk.Position = UDim2.new(0.35253039, 0, -0.303296119, 0)
 			Title_idk.Size = UDim2.new(0.339169234, -20, 1, 0)
@@ -411,7 +412,7 @@ function Library:Create(TitleText)
 
 			Thing.Name = "Thing"
 			Thing.Parent = Section
-			Thing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Thing.BackgroundColor3 = Color3.fromRGB144(144, 238, 14)
 			Thing.BackgroundTransparency = 1.000
 			Thing.Position = UDim2.new(0.637247145, 0, -0.303296119, 0)
 			Thing.Size = UDim2.new(0.307416946, -20, 1, 0)
@@ -425,7 +426,7 @@ function Library:Create(TitleText)
 
 			Thing2.Name = "Thing2"
 			Thing2.Parent = Section
-			Thing2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Thing2.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Thing2.BackgroundTransparency = 1.000
 			Thing2.Position = UDim2.new(0.0976673365, 0, -0.303296119, 0)
 			Thing2.Size = UDim2.new(0.335968375, -20, 1, 0)
@@ -461,7 +462,7 @@ function Library:Create(TitleText)
 
 			Button.Name = "Button"
 			Button.Parent = NewTab
-			Button.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Button.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Button.ClipsDescendants = true
 			Button.Size = UDim2.new(1, 0, 0, 32)
 			Button.AutoButtonColor = false
@@ -476,7 +477,7 @@ function Library:Create(TitleText)
 
 			Title_2.Name = "Title"
 			Title_2.Parent = Button
-			Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_2.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_2.BackgroundTransparency = 1.000
 			Title_2.Size = UDim2.new(1, -20, 1, 0)
 			Title_2.Font = Enum.Font.Ubuntu
@@ -493,7 +494,7 @@ function Library:Create(TitleText)
 
 			Sample.Name = "Sample"
 			Sample.Parent = Button
-			Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Sample.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Sample.BackgroundTransparency = 1.000
 			Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
 			Sample.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -503,7 +504,7 @@ function Library:Create(TitleText)
 			Icon_2.Name = "Icon"
 			Icon_2.Parent = Button
 			Icon_2.AnchorPoint = Vector2.new(1, 0)
-			Icon_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Icon_2.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Icon_2.BackgroundTransparency = 1.000
 			Icon_2.Position = UDim2.new(1, 0, 0, 0)
 			Icon_2.Size = UDim2.new(0, 20, 0, 20)
@@ -512,7 +513,7 @@ function Library:Create(TitleText)
 			UIStroke.Name = "UIStroke"
 			UIStroke.Parent = Button
 			UIStroke.ApplyStrokeMode = "Border"
-			UIStroke.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke.LineJoinMode = "Round"
 			UIStroke.Thickness = 1
 			UIStroke.Transparency = 0
@@ -547,10 +548,10 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(162, 162, 162)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = true
 				end
@@ -558,10 +559,10 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then 
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(81, 81, 81)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = false
 				end
@@ -583,7 +584,7 @@ function Library:Create(TitleText)
 			
 			TextBox.Name = "TextBox"
 			TextBox.Parent = NewTab
-			TextBox.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			TextBox.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			TextBox.ClipsDescendants = true
 			TextBox.Size = UDim2.new(1, 0, 0, 32)
 			TextBox.AutoButtonColor  = false
@@ -597,7 +598,7 @@ function Library:Create(TitleText)
 
 			Title_12.Name = "Title"
 			Title_12.Parent = TextBox
-			Title_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_12.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_12.BackgroundTransparency = 1.000
 			Title_12.Size = UDim2.new(0.750988126, -20, 1, 0)
 			Title_12.Font = Enum.Font.Ubuntu
@@ -615,13 +616,13 @@ function Library:Create(TitleText)
 			UIStroke_9.Name = "UIStroke"
 			UIStroke_9.Parent = TextBox
 			UIStroke_9.ApplyStrokeMode = "Border"
-			UIStroke_9.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_9.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_9.LineJoinMode = "Round"
 			UIStroke_9.Thickness = 1
 			UIStroke_9.Transparency = 0
 
 			TextBox_2.Parent = TextBox
-			TextBox_2.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+			TextBox_2.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			TextBox_2.BorderSizePixel = 0
 			TextBox_2.ClipsDescendants = true
 			TextBox_2.Position = UDim2.new(0.691699624, 0, 0, 0)
@@ -631,7 +632,7 @@ function Library:Create(TitleText)
 			TextBox_2.Font = Enum.Font.Ubuntu
 			TextBox_2.PlaceholderText = "Type here!"
 			TextBox_2.Text = ""
-			TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+			TextBox_2.TextColor3 = Color3.fromRGB(144, 238, 14)
 			TextBox_2.TextSize = 12.000
 
 			UICorner_35.Parent = TextBox_2
@@ -639,7 +640,7 @@ function Library:Create(TitleText)
 			UIStroke_10.Name = "UIStroke"
 			UIStroke_10.Parent = TextBox_2
 			UIStroke_10.ApplyStrokeMode = "Border"
-			UIStroke_10.Color = Color3.fromRGB(136, 136, 136)
+			UIStroke_10.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_10.LineJoinMode = "Round"
 			UIStroke_10.Thickness = 1
 			UIStroke_10.Transparency = 0
@@ -650,10 +651,10 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(162, 162, 162)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = true
 				end 
@@ -661,10 +662,10 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(81, 81, 81)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = false
 				end
@@ -698,7 +699,7 @@ function Library:Create(TitleText)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = NewTab
-			Toggle.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Toggle.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Toggle.ClipsDescendants = true
 			Toggle.Size = UDim2.new(1, 0, 0, 32)
 			Toggle.AutoButtonColor = false
@@ -712,7 +713,7 @@ function Library:Create(TitleText)
 
 			Title_6.Name = "Title"
 			Title_6.Parent = Toggle
-			Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_6.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_6.BackgroundTransparency = 1.000
 			Title_6.Size = UDim2.new(1, -26, 1, 0)
 			Title_6.Font = Enum.Font.Ubuntu
@@ -730,14 +731,14 @@ function Library:Create(TitleText)
 			UIStroke_2.Name = "UIStroke"
 			UIStroke_2.Parent = Toggle
 			UIStroke_2.ApplyStrokeMode = "Border"
-			UIStroke_2.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_2.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_2.LineJoinMode = "Round"
 			UIStroke_2.Thickness = 1
 			UIStroke_2.Transparency = 0
 
 			Sample.Name = "Sample"
 			Sample.Parent = Toggle
-			Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Sample.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Sample.BackgroundTransparency = 1.000
 			Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
 			Sample.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -746,7 +747,7 @@ function Library:Create(TitleText)
 			CheckmarkHolder.Name = "CheckmarkHolder"
 			CheckmarkHolder.Parent = Toggle
 			CheckmarkHolder.AnchorPoint = Vector2.new(1, 0.5)
-			CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+			CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			CheckmarkHolder.Position = UDim2.new(1, -3, 0.5, 0)
 			CheckmarkHolder.Size = UDim2.new(0, 16, 0, 16)
 
@@ -756,7 +757,7 @@ function Library:Create(TitleText)
 			UIStroke_3.Name = "UIStroke"
 			UIStroke_3.Parent = CheckmarkHolder
 			UIStroke_3.ApplyStrokeMode = "Border"
-			UIStroke_3.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_3.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_3.LineJoinMode = "Round"
 			UIStroke_3.Thickness = 1
 			UIStroke_3.Transparency = 0
@@ -772,10 +773,10 @@ function Library:Create(TitleText)
 				if not focusing then
 					if toggled == false then
 						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							BackgroundColor3 = Color3.fromRGB(115, 191, 92)
+							BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							Color = Color3.fromRGB(0, 255, 59) 
+							Color = Color3.fromRGB(144, 238, 14) 
 						}):Play()
 						local c = sample:Clone()
 						c.Parent = btn
@@ -795,10 +796,10 @@ function Library:Create(TitleText)
 						c:Destroy()
 					else
 						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							BackgroundColor3 = Color3.fromRGB(63, 63, 63) 
+							BackgroundColor3 = Color3.fromRGB(144, 238, 14) 
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							Color = Color3.fromRGB(81, 81, 81) 
+							Color = Color3.fromRGB(144, 238, 14) 
 						}):Play()
 						local c = sample:Clone()
 						c.Parent = btn
@@ -825,10 +826,10 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(162, 162, 162)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = true
 				end 
@@ -836,10 +837,10 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(81, 81, 81)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = false
 				end
@@ -869,7 +870,7 @@ function Library:Create(TitleText)
 
 			Slider.Name = "Slider"
 			Slider.Parent = NewTab
-			Slider.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Slider.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Slider.Size = UDim2.new(1, 0, 0, 38)
 
 			UICorner_12.CornerRadius = UDim.new(0, 4)
@@ -878,14 +879,14 @@ function Library:Create(TitleText)
 			UIStroke_4.Name = "UIStroke"
 			UIStroke_4.Parent = Slider
 			UIStroke_4.ApplyStrokeMode = "Border"
-			UIStroke_4.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_4.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_4.LineJoinMode = "Round"
 			UIStroke_4.Thickness = 1
 			UIStroke_4.Transparency = 0
 
 			Title_8.Name = "Title"
 			Title_8.Parent = Slider
-			Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_8.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_8.BackgroundTransparency = 1.000
 			Title_8.Size = UDim2.new(1, -24, 1, -10)
 			Title_8.Font = Enum.Font.Ubuntu
@@ -903,7 +904,7 @@ function Library:Create(TitleText)
 			Valuee.Name = "Value"
 			Valuee.Parent = Slider
 			Valuee.AnchorPoint = Vector2.new(1, 0)
-			Valuee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Valuee.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Valuee.BackgroundTransparency = 1.000
 			Valuee.Position = UDim2.new(1, 0, 0, 0)
 			Valuee.Size = UDim2.new(0, 24, 1, -10)
@@ -915,7 +916,7 @@ function Library:Create(TitleText)
 
 			SliderButton.Name = "SliderButton"
 			SliderButton.Parent = Slider
-			SliderButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			SliderButton.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			SliderButton.BackgroundTransparency = 1
 			SliderButton.Position = UDim2.new(0, 0, 0.846153855, 0)
 			SliderButton.Size = UDim2.new(0, 253, 0, 4)
@@ -927,14 +928,14 @@ function Library:Create(TitleText)
 			UIStroke_5.Name = "UIStroke"
 			UIStroke_5.Parent = SliderButton
 			UIStroke_5.ApplyStrokeMode = "Border"
-			UIStroke_5.Color = Color3.fromRGB(63, 63, 63)
+			UIStroke_5.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_5.LineJoinMode = "Round"
 			UIStroke_5.Thickness = 1
 			UIStroke_5.Transparency = 0
 
 			SliderInner.Name = "SliderInner"
 			SliderInner.Parent = SliderButton
-			SliderInner.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+			SliderInner.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			SliderInner.Size = UDim2.new(0, 0, 0, 4)
 
 			UICorner_13.CornerRadius = UDim.new(0, 4)
@@ -998,7 +999,7 @@ function Library:Create(TitleText)
 			
 			Keybind.Name = "Keybind"
 			Keybind.Parent = NewTab
-			Keybind.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Keybind.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Keybind.ClipsDescendants = true
 			Keybind.Size = UDim2.new(1, 0, 0, 32)
 			Keybind.AutoButtonColor = false
@@ -1044,10 +1045,10 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(162, 162, 162)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = true
 				end 
@@ -1055,10 +1056,10 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					game.TweenService:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(81, 81, 81)
+						Color = Color3.fromRGB(144, 238, 14)
 					}):Play()
 					hovering = false
 				end
@@ -1069,7 +1070,7 @@ function Library:Create(TitleText)
 
 			Title_14.Name = "Title"
 			Title_14.Parent = Keybind
-			Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_14.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_14.BackgroundTransparency = 1.000
 			Title_14.Size = UDim2.new(1, -20, 1, 0)
 			Title_14.Font = Enum.Font.Ubuntu
@@ -1094,7 +1095,7 @@ function Library:Create(TitleText)
 
 			Sample.Name = "Sample"
 			Sample.Parent = Keybind
-			Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Sample.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Sample.BackgroundTransparency = 1.000
 			Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
 			Sample.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -1102,7 +1103,7 @@ function Library:Create(TitleText)
 
 			Box.Name = "Box"
 			Box.Parent = Keybind
-			Box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Box.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Box.BackgroundTransparency = 0.900
 			Box.BorderColor3 = Color3.fromRGB(53, 53, 53)
 			Box.Position = UDim2.new(0.897233188, 0, 0, 0)
@@ -1114,14 +1115,14 @@ function Library:Create(TitleText)
 			UIStroke_qqqaa.Name = "UIStroke"
 			UIStroke_qqqaa.Parent = Box
 			UIStroke_qqqaa.ApplyStrokeMode = "Border"
-			UIStroke_qqqaa.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_qqqaa.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_qqqaa.LineJoinMode = "Round"
 			UIStroke_qqqaa.Thickness = 1
 			UIStroke_qqqaa.Transparency = 0
 
 			KeybindC.Name = "KeybindC"
 			KeybindC.Parent = Keybind
-			KeybindC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			KeybindC.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			KeybindC.BackgroundTransparency = 1.000
 			KeybindC.Position = UDim2.new(0.897233188, 0, 0, 0)
 			KeybindC.Size = UDim2.new(0, 26, 0, 20)
@@ -1149,7 +1150,7 @@ function Library:Create(TitleText)
 
 			Warning.Name = "Warning"
 			Warning.Parent = NewTab
-			Warning.BackgroundColor3 = Color3.fromRGB(43, 36, 3)
+			Warning.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Warning.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_7.Parent = Warning
@@ -1160,7 +1161,7 @@ function Library:Create(TitleText)
 
 			Title_3.Name = "Title"
 			Title_3.Parent = Warning
-			Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_3.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_3.BackgroundTransparency = 1.000
 			Title_3.Size = UDim2.new(1, 0, 1, 0)
 			Title_3.Font = Enum.Font.Ubuntu
@@ -1173,7 +1174,7 @@ function Library:Create(TitleText)
 
 			Icon_4.Name = "Icon"
 			Icon_4.Parent = Title_3
-			Icon_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Icon_4.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Icon_4.BackgroundTransparency = 1.000
 			Icon_4.Position = UDim2.new(0, -20, 0, 0)
 			Icon_4.Size = UDim2.new(0, 14, 0, 14)
@@ -1189,7 +1190,7 @@ function Library:Create(TitleText)
 			UIStroke_6.Name = "UIStroke"
 			UIStroke_6.Parent = Warning
 			UIStroke_6.ApplyStrokeMode = "Border"
-			UIStroke_6.Color = Color3.fromRGB(165, 137, 11)
+			UIStroke_6.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_6.LineJoinMode = "Round"
 			UIStroke_6.Thickness = 1
 			UIStroke_6.Transparency = 0
@@ -1226,7 +1227,7 @@ function Library:Create(TitleText)
 
 			Info.Name = "Info"
 			Info.Parent = NewTab
-			Info.BackgroundColor3 = Color3.fromRGB(3, 32, 43)
+			Info.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Info.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_9.Parent = Info
@@ -1237,7 +1238,7 @@ function Library:Create(TitleText)
 
 			Title_4.Name = "Title"
 			Title_4.Parent = Info
-			Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_4.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_4.BackgroundTransparency = 1.000
 			Title_4.Size = UDim2.new(1, 0, 1, 0)
 			Title_4.Font = Enum.Font.Ubuntu
@@ -1304,7 +1305,7 @@ function Library:Create(TitleText)
 
 			Label.Name = "Label"
 			Label.Parent = NewTab
-			Label.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Label.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Label.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_11.Parent = Label
@@ -1315,7 +1316,7 @@ function Library:Create(TitleText)
 
 			Title_5.Name = "Title"
 			Title_5.Parent = Label
-			Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_5.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Title_5.BackgroundTransparency = 1.000
 			Title_5.Size = UDim2.new(1, 0, 1, 0)
 			Title_5.Font = Enum.Font.Ubuntu
@@ -1328,7 +1329,7 @@ function Library:Create(TitleText)
 
 			Icon_6.Name = "Icon"
 			Icon_6.Parent = Title_5
-			Icon_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Icon_6.BackgroundColor3 = Color3.fromRGB(144, 238, 14)
 			Icon_6.BackgroundTransparency = 1.000
 			Icon_6.Position = UDim2.new(0, -20, 0, 0)
 			Icon_6.Size = UDim2.new(0, 14, 0, 14)
@@ -1344,7 +1345,7 @@ function Library:Create(TitleText)
 			UIStroke_8.Name = "UIStroke"
 			UIStroke_8.Parent = Label
 			UIStroke_8.ApplyStrokeMode = "Border"
-			UIStroke_8.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_8.Color = Color3.fromRGB(144, 238, 14)
 			UIStroke_8.LineJoinMode = "Round"
 			UIStroke_8.Thickness = 1
 			UIStroke_8.Transparency = 0
